@@ -1,0 +1,268 @@
+
+\documentclass[paper=a4,fontsize=11pt]{temp} % KOMA-article class	
+
+\begin{document}
+
+% TITLE
+
+\begin{minipage}{0.84\linewidth}
+    %\MyName{Alp ARGUN}
+    \user{Alp}{ARGUN}
+    %\sepspace
+    \noindent
+    % Tagline
+    %\subheadingEntry{\color{headings} M.Sc. Student and Research Assistant at RWTH Aachen University}
+
+   
+   \begin{adjustwidth}{0cm}{}
+        %\renewcommand{\arraystretch}{1}
+        
+        \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l X}
+            \faEnvelope \ & alpargun@gmail.com \\
+            
+            \faGlobe \ & alpargun.com \\
+            
+            \faMobilePhone \ & (+49) 172 566 8312 \\
+            
+            \faMapMarker \ & Aachen, GERMANY
+        \end{tabularx}
+    \end{adjustwidth}
+   
+   \iffalse
+    \faEnvelope \space alpargun@gmail.com \hfill 
+    
+    \faGlobe \space alpargun.com \hfill 
+   
+    \faMobilePhone \space (+49) 172 566 8312 \hfill 
+   
+    \faMapMarker \space Aachen, GERMANY \hfill 
+    \fi
+\end{minipage}%
+\begin{minipage}{.16\linewidth}
+   \includegraphics[width=0.8\textwidth]{alp_foto.jpg}
+\end{minipage} 
+
+
+
+
+
+%%--------------------------------------------------------------------------------------------------------------------------
+
+
+% EDUCATION ------------------------------------------------------------------------------------------------
+\sepspace
+
+% M.Sc.
+\vspace{-0.5\baselineskip}
+
+\NewPart{\faMortarBoard \space Education}{}
+\noindent
+
+\EducationEntry{M.Sc. Electrical and  Computer Engineering}{2019 - Present}{RWTH Aachen University} {} {IMG/education/rwth} {Aachen, GERMANY}
+
+\sepspace
+
+% B.Sc.
+\EducationEntry{B.Sc. Electrical and Electronics Engineering}{2014 - 2018}{Bilkent University}  {\rule[-0.4ex]{0.2ex}{1.2em} GPA: 3.16/4.00, Honor Student} {IMG/education/bilkent} {Ankara, TURKEY}
+
+% \rule[-0.4ex]{0.2ex}{1.2em} 
+
+\sepspace
+
+% High School - commented out
+\iffalse
+\EducationEntry{High School and International Baccalaureate Diploma}{Sep 2010 - Jun 2014}{TED Ankara College Foundation Private High School Ankara, TURKEY}
+{\begin{itemize} 
+\item High School Diploma GPA: 89.16/100
+\item International Baccalaureate Diploma GPA: 31/45
+\end{itemize}} {IMG/education/ted}
+
+\sepspace
+
+\fi
+
+%%--------------------------------------------------------------------------------------------------------------------------
+% WORK EXPERIENCE--------------------------------------------------------------------------------------------
+
+\sepspace
+
+\vspace{-0.5\baselineskip}
+\NewPart{\faSuitcase \space Work experience}{}
+\noindent
+
+% Porsche - Internship
+\workEntry{Porsche AG}{05/2021 - Present}{Data Science Intern}{Data driven development for highly automated and assisted driving.} {IMG/work/porsche.png} {Stuttgart, GERMANY}
+
+\sepspace
+
+% RWTH - Research
+\workEntry{RWTH Aachen University}{06/2019 - 04/2021}{Student Research Assistant}
+{
+{\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item Applied deep reinforcement learning to solve the autonomous driving problem on 2D (OpenAI Gym) and 3D (SVL Simulator) environments.
+\item Data analysis on battery data using SQL and Python.
+\item A Raspberry Pi project to control a bioreactor to stimulate tissues with a user interface and real-time plotting.
+\end{itemize}}
+}
+{IMG/education/rwth.png} {Aachen, GERMANY}
+
+\sepspace
+
+
+% ASELSAN - Full time
+\workEntry{Aselsan}{01/2019 - 03/2019}{Software Engineer}{Worked on a computer vision project.} {IMG/work/aselsan.png} {Ankara, TURKEY}
+
+\sepspace
+
+% Siemens - Trainee
+\workEntry{Siemens}{09/2018 - 10/2018}{R\&D Engineering Trainee}{Developed a Raspberry Pi application to set up modal analysis for a transformer and plot data.} {IMG/work/siemens.png} {Budapest, HUNGARY}
+
+
+%%--------------------------------------------------------------------------------------------------------------------------
+
+% EXAMS - commented out
+\iffalse
+\NewPart{Exams}{}
+
+{\begin{itemize}
+\item\subheadingEntry{TOEFL iBT:} 103/120 (Sep 2017)
+\item\subheadingEntry{GRE:} Verbal Reasoning: 150/170, Quantitative Reasoning: 167/170, Analytical Writing: 4/6 (Oct 2017)
+\end{itemize}}
+
+\fi
+
+%%--------------------------------------------------------------------------------------------------------------------------
+
+% SKILLS ------------------------------------------------------------------------------------------------
+\sepspace
+\sepspace
+
+\vspace{-0.5\baselineskip}
+
+\NewPart{\faCogs \space Skills}{}
+
+%\begin{multicols}{3}
+
+% Programming
+
+\begin{minipage}[t]{0.39\textwidth} 
+
+\headingEntry{Programming}
+
+\begin{tabular}[t]{ l | l | l}
+
+Python & C++ & MATLAB\\
+Java & SQL & VHDL\\
+HTML & CSS & JavaScript \\
+
+\end{tabular}
+
+\end{minipage}%
+\begin{minipage}[t]{0.39\textwidth} 
+
+% Frameworks
+
+\headingEntry{Frameworks \& Platforms}
+
+\begin{tabular}[t]{ l | l }
+Tensorflow & Linux\\
+Keras & Ray RLlib
+
+\end{tabular}
+
+\end{minipage}%
+\begin{minipage}[t]{0.22\textwidth} 
+
+% Languages
+
+\headingEntry{Languages}
+
+\begin{tabular}[t]{ l l }
+\flag{IMG/flag/tr}  & Turkish: Native\\
+\flag{IMG/flag/gb}  & English: C1\\
+\flag{IMG/flag/de}  & German: B1
+\end{tabular}
+
+\sepspace
+\end{minipage}
+
+
+%\end{multicols}
+
+%%--------------------------------------------------------------------------------------------------------------------------
+
+% PROJECTS -----------------------------------------------------------------------------------------
+\sepspace
+
+\vspace{-0.5\baselineskip}
+
+\NewPart{\faLaptop \space Academic Projects}{}
+\noindent
+\vspace{-1\baselineskip}
+
+\begin{adjustwidth}{0cm}{}
+    \renewcommand{\arraystretch}{1.2}
+
+    \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l X}
+        Mobile Controlled Car \ & Implemented an RC car with a Raspberry Pi using Python to collect data and stream live video and it is controlled by an Android application.\\
+
+        Spoken Digit Recognition \ & Designed hardware to record speech and processed the signal to recognize the spoken digit using MATLAB.\\
+        
+    \end{tabularx}
+\end{adjustwidth}
+
+\sepspace
+\sepspace
+
+%%--------------------------------------------------------------------------------------------------------------------------
+\sepspace
+
+% EXTRACURRICULAR
+\vspace{-1.5\baselineskip}
+
+\NewPart{\faUsers \space Extracurricular Activities and Awards}{}
+
+\begin{adjustwidth}{0cm}{}
+    \renewcommand{\arraystretch}{1.2}
+
+    \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l X}
+        07/2019 \ & Performed with RWTH Aachen University Choir and Orchestra \\
+
+        2014-2010 \ & Won medals in national and regional tournaments with TED Ankara College handball team \\
+        
+        09/2010 \ & Turkish national handball team training camp, Nigde, Turkey 
+    \end{tabularx}
+\end{adjustwidth}
+
+%%--------------------------------------------------------------------------------------------------------------------------
+
+\iffalse
+% ACADEMIC HONORS - commented out
+\vspace{-1.5\baselineskip}
+
+\NewPart{Academic Honors and Awards}{}
+
+%\subheadingEntry{06/2018:} Graduated as an Honor Student, Bilkent University, Ankara, Turkey \\
+%\subheadingEntry{09/2015 - 06/2016:} Merit scholarship, Bilkent University, Ankara, Turkey
+%\subheadingEntry{09/2010 - 06/2014:} Merit scholarship, TED Ankara College Foundation Private High School, Ankara, Turkey
+
+\begin{adjustwidth}{0cm}{}
+    \renewcommand{\arraystretch}{1.2}
+
+    \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l X}
+        06/2018 \ & Graduated as an Honor Student, Bilkent University, Ankara, Turkey. \\
+
+        09/2015 - 06/2016 \ & Merit scholarship, Bilkent University, Ankara, Turkey. \\
+        
+    \end{tabularx}
+\end{adjustwidth}
+\fi
+
+
+
+
+%%% References
+%%% ------------------------------------------------------------
+
+\end{document}
