@@ -8,7 +8,6 @@
 \LoadClass{scrartcl}
 
 \usepackage{fontawesome}
-
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage[default,scale=0.95]{opensans}
